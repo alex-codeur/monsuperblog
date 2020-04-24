@@ -570,19 +570,20 @@ input[type="text"] {
     width: 100%;
 }
 
-.commentaires .formulaire textarea {
+.commentaires .formulaire textarea, .container .formulaire textarea {
     width: 100%;
     border: none;
     border-radius: 5px;
 }
 
-.commentaires .formulaire input[type="text"] {
+.commentaires .formulaire input[type="text"], .container .formulaire input[type="text"] {
     width: 100%;
     border: none;
     border-radius: 5px;
+    padding: 20px;
 }
 
-.commentaires .formulaire button {
+.commentaires .formulaire button, .container .formulaire button {
     width: 100%;
     margin-top: 15px;   
     border: none;
@@ -618,4 +619,18 @@ input[type="text"] {
     padding-top: 10px;
     width: 32%;
     margin-left: 3px;
+}
+
+/* CONTACT */
+
+.container .formulaire .left {
+    float: left;
+    width: 48%;
+    padding-bottom: 10px;
+}
+
+.container .formulaire .right {
+    float: right;
+    width: 48%;
+    padding-bottom: 10px;
 }
