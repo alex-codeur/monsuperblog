@@ -576,14 +576,41 @@ input[type="text"] {
     border-radius: 5px;
 }
 
-.commentaires .formulaire input[type="text"], .container .formulaire input[type="text"] {
+.commentaires .formulaire input[type="text"],
+.container .formulaire input[type="text"]
+{
     width: 100%;
     border: none;
     border-radius: 5px;
     padding: 20px;
 }
 
-.commentaires .formulaire button, .container .formulaire button {
+.container .formulaire input[type="email"],
+.container .formulaire input[type="password"]
+{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.container .formulaire input[type="checkbox"], label #check {
+    display: inline-block;
+}
+
+.container .formulaire input[type="checkbox"] {
+    padding: 5px;
+    width: 5%;
+    border: none;
+}
+
+.container .formulaire label #check {
+    padding: 5px;
+    width: 92%;
+}
+
+.commentaires .formulaire button,
+.container .formulaire button {
     width: 100%;
     margin-top: 15px;   
     border: none;
@@ -627,6 +654,14 @@ input[type="text"] {
     float: left;
     width: 48%;
     padding-bottom: 10px;
+    padding-top: 6px;
+}
+
+.container .formulaire .left a {
+    float: left;
+    width: 48%;
+    padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 .container .formulaire .right {
