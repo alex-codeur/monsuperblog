@@ -558,3 +558,64 @@ input[type="text"] {
     border-radius: 5px;
     color: #fff;
 }
+
+/* DETAIL */
+
+.container-detail {
+    float: left;
+    width: 69%;
+}
+
+.container-detail img {
+    width: 100%;
+}
+
+.commentaires .formulaire textarea {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.commentaires .formulaire input[type="text"] {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.commentaires .formulaire button {
+    width: 100%;
+    margin-top: 15px;   
+    border: none;
+    border-radius: 5px;
+    background-color: #34AAFF;
+    padding: 8px;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.reference {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.container-detail .autres .titre {
+    background-color: #34AAFF;
+    width: 100%;
+    color: #fff;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.container-detail .autres img {
+    padding-top: 10px;
+    width: 32%;
+    margin-left: 3px;
+}
