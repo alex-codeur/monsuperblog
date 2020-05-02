@@ -840,6 +840,12 @@ input[type="text"] {
         width: 100%;
     }
 
+    /* DETAIL */
+
+    .container .container-detail {
+        width: 100%;
+    }
+
     /* FOOTER */
 
     .footer .footer-top {
